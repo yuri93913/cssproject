@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.üst{
+    margin-bottom: 2rem;
+}
+
+
+.üst-kisim{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #001524;
+    
+}
+
+
+
+.baslik{
+    text-align: center;
+    color: #dc2f02;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+}
+
+.list li{
+    padding: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+   
+    
+}
+.list li a{
+    text-decoration: none;
+    color: #0096c7;
+}
+.list li a:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+.govde{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.paragraf{
+    width: 600px;
+    margin-right: 6rem;
+    font-size: 24px;
+}
